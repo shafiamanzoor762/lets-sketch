@@ -1,0 +1,35 @@
+import SwiftUI
+
+/// Centralized, localizable copy used throughout the app.
+public final class AppStrings {
+    private init() {}
+    public static let appName = "Let's Sketch"
+    public static let sketchTab = "Sketch"
+    public static let traceTab = "Trace"
+    public static let galleryTab = "Gallery"
+    public static let newSketch = "New Sketch"
+    public static let editSketch = "Edit Sketch"
+    public static let untitledSketch = "Untitled Sketch"
+    public static let save = "Save"
+    public static let sketchSaved = "Sketch saved"
+    public static let saveSketchQuestion = "Do you want to save Sketch?"
+    public static let discard = "Discard"
+    public static let confirm = "OK"
+    public static let mySketches = "My Sketches"
+    public static let noSketches = "No Sketches Yet."
+    public static let noSketchesDescription = "New sketches you create will appear here."
+    public static let download = "Download"
+    public static let edit = "Edit"
+    public static let share = "Share"
+    public static let savedToPhotos = "Saved to Photos"
+    public static let traceTitle = "Trace an Image"
+    public static let traceSubtitle = "Choose a reference, then draw directly over it."
+    public static let choosePhoto = "Choose Photo"
+    public static let replacePhoto = "Replace Photo"
+    public static let canvasOpacity = "Canvas Opacity"
+    public static let traceSave = "Save Trace"
+    public static let tracePlaceholder = "Pick an image to start tracing"
+    public static let lightMode = "Light mode"
+    public static let darkMode = "Dark mode"
+    public static let splashTagline = "Sketch. Save. Edit."
+}
